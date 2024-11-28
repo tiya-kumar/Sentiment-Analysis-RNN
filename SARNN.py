@@ -16,7 +16,6 @@ def tokenize(text):
 
 
 def create_vocab(words):
-    # Using a set since there can't be duplicates...ask about in class!!
     vocab = set()
     for sentence in sentences:
         tokens = tokenize(sentence)
